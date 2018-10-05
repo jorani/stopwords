@@ -1,0 +1,25 @@
+{
+    "name": "jorani/stopwords",
+    "description": "Removes stopwords from a string",
+    "keywords": ["library", "package", "stopwords", "nlp", "language"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin BALET",
+            "email": "benjamin.balet@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=5.2",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jorani\\StopWords\\": "src/"
+        }
+    }
+}
